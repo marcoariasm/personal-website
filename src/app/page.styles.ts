@@ -141,6 +141,7 @@ export const PrimaryButton = styled(Link)`
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: ${({ theme }) => theme.spacing.xs};
 
   border-radius: ${({ theme }) => theme.radius.sm};
   background: linear-gradient(

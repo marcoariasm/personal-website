@@ -1,24 +1,25 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 // import Link from "next/link";
-import { Footer } from "@/components/layout/Footer";
-import { Header } from "@/components/layout/Header";
+import { Footer } from '@/components/layout/Footer';
+import { Header } from '@/components/layout/Header';
 
-import { AngularIcon } from "../../public/icons/angular";
-import { ClaudeIcon } from "../../public/icons/claude";
-import { MaterialUiIcon } from "../../public/icons/material-ui";
+import { AngularIcon } from '../../public/icons/angular';
+import { ClaudeIcon } from '../../public/icons/claude';
+import { MaterialUiIcon } from '../../public/icons/material-ui';
 // import { GitHubIcon } from "../../public/icons/github";
-import { NestIcon } from "../../public/icons/nest";
-import { NextIcon } from "../../public/icons/next";
-import { NodeJsIcon } from "../../public/icons/node-js";
-import { OpenAiIcon } from "../../public/icons/open-ai";
-import { PostgreIcon } from "../../public/icons/postgre";
-import { ReactIcon } from "../../public/icons/react";
-import { SalesforceIcon } from "../../public/icons/salesforce";
-import { StyledComponentsIcon } from "../../public/icons/styled-components";
-import { TanstackIcon } from "../../public/icons/tanstack";
+import { NestIcon } from '../../public/icons/nest';
+import { NextIcon } from '../../public/icons/next';
+import { NodeJsIcon } from '../../public/icons/node-js';
+import { OpenAiIcon } from '../../public/icons/open-ai';
+import { PostgreIcon } from '../../public/icons/postgre';
+import { ReactIcon } from '../../public/icons/react';
+import { SalesforceIcon } from '../../public/icons/salesforce';
+import { StyledComponentsIcon } from '../../public/icons/styled-components';
+import { TanstackIcon } from '../../public/icons/tanstack';
 // import { TanstackIcon } from "../../public/icons/tanstack";
-import { TypescriptIcon } from "../../public/icons/typescript";
+import { TypescriptIcon } from '../../public/icons/typescript';
+import { WhatsAppDarkIcon } from '../../public/icons/whatsapp-dark';
 import {
   About,
   AboutGrid,
@@ -32,7 +33,6 @@ import {
   HeroImage,
   HeroImageWrapper,
   HeroTitle,
-  OutlineButton,
   Page,
   PrimaryButton,
   ProjectCard,
@@ -45,8 +45,8 @@ import {
   SkillList,
   SkillTag,
   SkillTitle,
-  Subtitle,
-} from "./page.styles";
+  Subtitle
+} from './page.styles';
 
 const capabilities = [
   "Systems Thinking",
@@ -132,9 +132,16 @@ export default function HomePage() {
               </SkillList>
 
               <Actions>
-                <PrimaryButton href="#projects">Ver proyectos</PrimaryButton>
+                {/* <PrimaryButton href="#experience">Ver proyectos</PrimaryButton> */}
 
-                <OutlineButton href="#contact">Contactar</OutlineButton>
+                <PrimaryButton
+                  target="_blank"
+                  href="https://wa.me/51975993773?text=Hola%20Marco,%20me%20gustaría%20contactarte%20para%20hablar%20sobre%20una%20oportunidad."
+                >
+                  <WhatsAppDarkIcon width={18} height={18} />
+                  Contactar
+                </PrimaryButton>
+                {/* <OutlineButton href="#contact">Contactar</OutlineButton> */}
               </Actions>
 
               <SkillTitle>Technologies:</SkillTitle>
