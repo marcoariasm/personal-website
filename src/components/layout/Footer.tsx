@@ -65,7 +65,7 @@ export function Footer() {
           </SocialWrapper>
         </div>
 
-        <PrimaryButton href="mailto:correo@ejemplo.com">
+        <PrimaryButton href="mailto:hola@marcoarias.com">
           Enviar mensaje
         </PrimaryButton>
       </Container>
