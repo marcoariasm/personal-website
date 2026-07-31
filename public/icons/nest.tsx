@@ -2,6 +2,7 @@ const NestIcon = ({ width = 30, height = 30 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
+    viewBox="0 0 100 100"
     width={width}
     height={height}
   >

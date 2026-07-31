@@ -6,7 +6,7 @@ const StyledComponentsIcon = ({ width = 30, height = 30 }) => (
     width={width}
     height={height}
   >
-    <g clip-path="url(#a)">
+    <g clipPath="url(#a)">
       <mask
         id="b"
         width="100"
@@ -210,8 +210,8 @@ const StyledComponentsIcon = ({ width = 30, height = 30 }) => (
         gradientTransform="rotate(44.2 -13.05 38.463)scale(9.8 18.5)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#6e6e6e" stop-opacity="0" />
-        <stop offset=".7" stopColor="#6e6e6e" stop-opacity=".2" />
+        <stop stopColor="#6e6e6e" stopOpacity="0" />
+        <stop offset=".7" stopColor="#6e6e6e" stopOpacity=".2" />
         <stop offset="1" stopColor="#6e6e6e" />
       </radialGradient>
       <radialGradient
@@ -222,8 +222,8 @@ const StyledComponentsIcon = ({ width = 30, height = 30 }) => (
         gradientTransform="rotate(42.1 -47.86 75.842)scale(10.6 18.6)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#6e6e6e" stop-opacity="0" />
-        <stop offset=".7" stopColor="#6e6e6e" stop-opacity=".2" />
+        <stop stopColor="#6e6e6e" stopOpacity="0" />
+        <stop offset=".7" stopColor="#6e6e6e" stopOpacity=".2" />
         <stop offset="1" stopColor="#6e6e6e" />
       </radialGradient>
       <radialGradient
@@ -234,8 +234,8 @@ const StyledComponentsIcon = ({ width = 30, height = 30 }) => (
         gradientTransform="rotate(-40.5 154.78 -82.653)scale(19.2 7.2)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#6e6e6e" stop-opacity="0" />
-        <stop offset=".6" stopColor="#6e6e6e" stop-opacity=".2" />
+        <stop stopColor="#6e6e6e" stopOpacity="0" />
+        <stop offset=".6" stopColor="#6e6e6e" stopOpacity=".2" />
         <stop offset="1" stopColor="#6e6e6e" />
       </radialGradient>
       <radialGradient
@@ -246,8 +246,8 @@ const StyledComponentsIcon = ({ width = 30, height = 30 }) => (
         gradientTransform="rotate(20.5 -73.89 300.3)scale(5.2 11.4)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#6e6e6e" stop-opacity="0" />
-        <stop offset=".6" stopColor="#6e6e6e" stop-opacity=".2" />
+        <stop stopColor="#6e6e6e" stopOpacity="0" />
+        <stop offset=".6" stopColor="#6e6e6e" stopOpacity=".2" />
         <stop offset="1" stopColor="#6e6e6e" />
       </radialGradient>
       <clipPath id="a">
