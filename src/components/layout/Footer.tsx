@@ -28,6 +28,7 @@ export async function Footer() {
             width={105}
             height={23}
           />
+          <p>Marco Arias</p>
           <p>{t("description")}</p>
         </div>
 
