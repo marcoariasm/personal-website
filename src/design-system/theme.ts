@@ -41,6 +41,10 @@ export const theme = {
   layout: {
     contentMaxWidth: "75rem",
   },
+
+  zIndex: {
+    header: 100,
+  },
 } as const;
 
 export type AppTheme = typeof theme;

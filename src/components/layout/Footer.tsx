@@ -25,17 +25,16 @@ export async function Footer() {
           <Image
             src="/images/logo.png"
             alt={t("altLogo")}
-            width={120}
-            height={26}
+            width={105}
+            height={23}
           />
           <p>{t("description")}</p>
         </div>
 
         <div>
           <strong>{t("contact")}</strong>
-          {/* <AngularIcon width={36} height={36} /> */}
-          <p>{t("email")}</p>
-          {/* <p>Lima, Perú · Remoto</p> */}
+          <p>{t("location")}</p>
+          {/* <p>{t("email")}</p> */}
 
           <SocialWrapper>
             {socialItems.map((socialItem, index) => (
@@ -48,34 +47,6 @@ export async function Footer() {
                 <socialItem.icon width={20} height={20} />
               </Link>
             ))}
-            {/* <Link
-              href="https://www.linkedin.com/in/marcoantonioam/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <LinkedInIcon width={20} height={20} />
-            </Link>
-            <Link
-              href="https://www.github.com/marcoariasm/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GitHubIcon width={20} height={20} />
-            </Link>
-            <Link
-              href="https://www.youtube.com/@marcoariasm"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <YouTubeIcon width={20} height={20} />
-            </Link>
-            <Link
-              href="https://wa.me/51975993773?text=Hola%20Marco,%20me%20gustaría%20contactarte%20para%20hablar%20sobre%20una%20oportunidad."
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <WhatsAppIcon width={20} height={20} />
-            </Link> */}
           </SocialWrapper>
         </div>
 

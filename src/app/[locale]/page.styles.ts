@@ -25,7 +25,13 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.header`
+  position: sticky;
+  top: 0;
+  z-index: ${({ theme }) => theme.zIndex.header};
+
   border-bottom: 1px solid ${({ theme }) => theme.colors.border};
+  background: ${({ theme }) => theme.colors.background};
+  backdrop-filter: blur(12px);
 
   ${Container} {
     min-height: 5rem;
@@ -249,7 +255,7 @@ export const HeroImage = styled.div`
 `;
 
 export const About = styled.section`
-  padding: ${({ theme }) => theme.spacing.xxl};
+  padding: ${({ theme }) => theme.spacing.xl};
   border: 1px solid ${({ theme }) => theme.colors.border};
   border-radius: ${({ theme }) => theme.radius.lg};
   background: rgba(12, 25, 42, 0.7);
@@ -258,7 +264,7 @@ export const About = styled.section`
 export const AboutGrid = styled.div`
   display: grid;
   grid-template-columns: 1.5fr repeat(3, 1fr);
-  gap: ${({ theme }) => theme.spacing.xl};
+  gap: ${({ theme }) => theme.spacing.lg};
 
   @media (max-width: 56rem) {
     grid-template-columns: 1fr 1fr;
@@ -270,7 +276,7 @@ export const AboutGrid = styled.div`
 `;
 
 export const AboutItem = styled.article`
-  padding-left: ${({ theme }) => theme.spacing.lg};
+  padding-left: ${({ theme }) => theme.spacing.sm};
   border-left: 1px solid ${({ theme }) => theme.colors.border};
 
   strong {

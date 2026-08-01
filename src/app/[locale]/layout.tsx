@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
-import Head from 'next/head';
 import { notFound } from 'next/navigation';
 
 import { ThemeRegistry } from '@/design-system/ThemeRegistry';
@@ -38,17 +37,20 @@ export async function generateMetadata({
   return {
     title: t("title"),
     description: t("description"),
+    icons: {
+      icon: [
+        {
+          url: "/favicon.ico",
+          media: "(prefers-color-scheme: light)",
+        },
+        {
+          url: "/favicon2.ico",
+          media: "(prefers-color-scheme: dark)",
+        },
+      ],
+    },
   };
 }
-
-// export const metadata: Metadata = {
-//   title: "Marco Arias | Senior Software Engineer",
-//   description: "Software, rstrategia y entrega de resultados.",
-// };
-
-// interface RootLayoutProps {
-//   children: ReactNode;
-// }
 
 export default async function LocaleLayout({
   children,
@@ -64,18 +66,6 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <Head>
-        <link
-          href="favicon.ico"
-          rel="icon"
-          media="(prefers-color-scheme: light)"
-        />
-        <link
-          href="favicon-2.ico"
-          rel="icon"
-          media="(prefers-color-scheme: dark)"
-        />
-      </Head>
       <body>
         <NextIntlClientProvider messages={messages}>
           <ThemeRegistry>{children}</ThemeRegistry>

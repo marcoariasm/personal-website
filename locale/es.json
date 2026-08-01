@@ -14,7 +14,7 @@
       "contact": { "title": "Contacto", "href": "#contact" }
     },
     "downloadCV": "Descargar CV",
-    "downloadCVLink": "/doc/MarcoArias-CV-en.pdf"
+    "downloadCVLink": "/doc/MarcoArias-CV-es.pdf"
   },
 
   "HomePage": {
@@ -90,6 +90,7 @@
       "contact": "Contacto",
       "email": "hola@marcoarias.com",
       "sendEmail": "Envíame un correo",
+      "location": "Lima, Perú 🇵🇪· Remoto",
       "socialLinks": {
         "linkedin": {
           "title": "LinkedIn",

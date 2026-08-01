@@ -18,5 +18,3 @@ export const FOOTER_CONFIG = [
     icon: WhatsAppIcon,
   },
 ];
-
-// export type SocialId = (typeof FOOTER_CONFIG)[number];

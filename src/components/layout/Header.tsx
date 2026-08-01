@@ -24,8 +24,8 @@ export async function Header() {
         <Image
           src="/images/logo.png"
           alt={t("altLogo")}
-          width={120}
-          height={26}
+          width={105}
+          height={23}
         />
         {/* <Logo href="/">
           <div>&lt;</div>
