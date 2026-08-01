@@ -3,12 +3,15 @@ export const theme = {
     background: "#040B17",
     backgroundSoft: "#081424",
     surface: "#0C192A",
+    surfaceSoft: "#10233A",  //check this
     surfaceHover: "#10233A",
 
     text: "#F7F4EB",
     textMuted: "#9AA8BB",
 
     primary: "#43C8FF",
+    primaryMain: "#FFF", // check this
+    primaryContrast: "#040B17", // check this
     primaryStrong: "#3283FF",
     accent: "#FF8A24",
     beige: "#D5C581",

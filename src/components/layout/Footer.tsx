@@ -1,36 +1,54 @@
+import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
-import Link from 'next/link';
 
-import { Container, Footer as FooterComponent, PrimaryButton } from '@/app/page.styles';
+import { Container, Footer as FooterComponent, PrimaryButton } from '@/app/[locale]/page.styles';
+import { Link } from '@/i18n/navigation';
 
-import { GitHubIcon } from '../../../public/icons/github';
-import { LinkedInIcon } from '../../../public/icons/linkedin';
-import { WhatsAppIcon } from '../../../public/icons/whatsapp';
-import { YouTubeIcon } from '../../../public/icons/youtube';
-import { SocialWrapper } from './footer.styles';
+import { FOOTER_CONFIG } from './Footer.config';
+import { SocialWrapper } from './Footer.styled';
 
-export function Footer() {
+export async function Footer() {
+  const t = await getTranslations("HomePage.footer");
+  const t_social = await getTranslations("HomePage.footer.socialLinks");
+
+  const socialItems = FOOTER_CONFIG.map((socialItem) => ({
+    href: t_social(`${socialItem.id}.href`),
+    icon: socialItem.icon as unknown as React.ComponentType<
+      React.SVGProps<SVGSVGElement>
+    >,
+  }));
+
   return (
     <FooterComponent id="contact">
       <Container>
         <div>
           <Image
             src="/images/logo.png"
-            alt="Logo de Marco Arias"
+            alt={t("altLogo")}
             width={120}
             height={26}
           />
-          <p>Software, estrategia y entrega de resultados.</p>
+          <p>{t("description")}</p>
         </div>
 
         <div>
-          <strong>Contacto</strong>
+          <strong>{t("contact")}</strong>
           {/* <AngularIcon width={36} height={36} /> */}
-          <p>hola@marcoarias.com</p>
+          <p>{t("email")}</p>
           {/* <p>Lima, Perú · Remoto</p> */}
 
           <SocialWrapper>
-            <Link
+            {socialItems.map((socialItem, index) => (
+              <Link
+                key={index}
+                href={socialItem.href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <socialItem.icon width={20} height={20} />
+              </Link>
+            ))}
+            {/* <Link
               href="https://www.linkedin.com/in/marcoantonioam/"
               target="_blank"
               rel="noopener noreferrer"
@@ -57,12 +75,12 @@ export function Footer() {
               rel="noopener noreferrer"
             >
               <WhatsAppIcon width={20} height={20} />
-            </Link>
+            </Link> */}
           </SocialWrapper>
         </div>
 
         <PrimaryButton href="mailto:hola@marcoarias.com">
-          Enviar correo
+          {t("sendEmail")}
         </PrimaryButton>
       </Container>
     </FooterComponent>

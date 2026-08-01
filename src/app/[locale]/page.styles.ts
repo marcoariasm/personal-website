@@ -1,8 +1,9 @@
 "use client";
 
 import Image from 'next/image';
-import Link from 'next/link';
 import styled from 'styled-components';
+
+import { Link } from '@/i18n/navigation';
 
 export const Page = styled.div`
   min-height: 100vh;
@@ -136,7 +137,7 @@ export const Actions = styled.div`
 
 export const PrimaryButton = styled(Link)`
   min-height: 3rem;
-  padding: 0 ${({ theme }) => theme.spacing.lg};
+  padding: 0 ${({ theme }) => theme.spacing.md};
 
   display: inline-flex;
   align-items: center;
@@ -164,7 +165,7 @@ export const PrimaryButton = styled(Link)`
 
 export const OutlineButton = styled.a`
   min-height: 3rem;
-  padding: 0 ${({ theme }) => theme.spacing.lg};
+  padding: 0 ${({ theme }) => theme.spacing.md};
 
   display: inline-flex;
   align-items: center;
@@ -186,7 +187,7 @@ export const SkillList = styled.div`
   margin-top: ${({ theme }) => theme.spacing.sm};
   display: flex;
   flex-wrap: wrap;
-  gap: ${({ theme }) => theme.spacing.md};
+  gap: ${({ theme }) => theme.spacing.sm};
 `;
 
 export const SkillTitle = styled.h4`

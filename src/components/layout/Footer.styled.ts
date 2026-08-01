@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const SocialWrapper = styled.div`
   display: flex;
-  gap: ${({ theme }) => theme.spacing.lg};
+  gap: ${({ theme }) => theme.spacing.md};
   margin-top: ${({ theme }) => theme.spacing.sm};
 
 `;

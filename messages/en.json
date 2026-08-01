@@ -1,0 +1,113 @@
+{
+  "Metadata": {
+    "title": "Marco Arias | Senior Software Engineer",
+    "description": "Software engineering, technology strategy and digital product development."
+  },
+
+  "Menu": {
+    "altLogo": "Marco Arias logo",
+    "navAriaLabel": "Main navigation",
+    "menuItems": {
+      "home": { "title": "Home", "href": "/" },
+      "about": { "title": "About", "href": "#about" },
+      "experience": { "title": "Experience", "href": "#experience" },
+      "contact": { "title": "Contact", "href": "#contact" }
+    },
+    "downloadCV": "Download CV",
+    "downloadCVLink": "/doc/MarcoArias-CV-en.pdf"
+  },
+
+  "HomePage": {
+    "hello": "Hi, I'm",
+    "name": "Marco",
+    "lastName": " Arias",
+    "subtitle": "Senior Software Engineer",
+    "paragraph": "I build modern, scalable web applications designed to generate real results for the business.",
+
+    "contact": "Send me a message",
+    "hrefContact": "https://wa.me/51975993773?text=Hi%20Marco,%20I%20would%20like%20to%20contact%20you%20about%20an%20opportunity.",
+
+    "coreCapabilities": "Core capabilities",
+    "capabilities": {
+      "capability1": "Systems Thinking",
+      "capability2": "Software Architecture",
+      "capability3": "Product Thinking",
+      "capability4": "Technical Leadership",
+      "capability5": "Business Understanding",
+      "capability6": "Engineering Excellence"
+    },
+
+    "technologies": "Tech Stack:",
+
+    "availability": "🟢 Available full time",
+
+    "imageAlt": "Marco Arias, Senior Software Engineer",
+
+    "about": "About me",
+    "aboutTitle": "I create digital solutions that generate ",
+    "aboutTitleBold": "impact.",
+    "aboutParagraph": "I develop robust, maintainable products focused on user experience.",
+    "aboutItems": {
+      "item1": {
+        "title": "Clean Code",
+        "description": "Maintainable components and scalable architecture.",
+        "imageSrc": "/images/clean-code.jpg",
+        "imageAlt": "clean code"
+      },
+      "item2": {
+        "title": "User Centered",
+        "description": "Clear interfaces that resolve real problems.",
+        "imageSrc": "/images/user-centered.jpg",
+        "imageAlt": "user centered"
+      },
+      "item3": {
+        "title": "Results Oriented",
+        "description": "Measured value delivered to the business and product.",
+        "imageSrc": "/images/results-oriented.webp",
+        "imageAlt": "Results Oriented"
+      }
+    },
+
+    "experienceEyebrow": "Featured projects",
+    "experienceTitle": "Some recent experiences",
+    "seeMoreExperience": "See more experience",
+    "experienceItems": {
+      "santander": {
+        "title": "Santander Consumer Peru",
+        "description": "Development of Credit Assessment Desk (Concessions Trail) inside Assisted Channels building block.",
+        "imageAlt": "credit assessment desk"
+      },
+      "libertas": {
+        "title": "Libertas Funding LLC",
+        "description": "Finantial solution for assessment, approval and management of crowd-funding loan credits.",
+        "imageAlt": "funding management system"
+      }
+    },
+
+    "footer": {
+      "altLogo": "Marco Arias logo",
+      "description": "Software, strategy and results delivery.",
+      "contact": "Contact",
+      "email": "hola@marcoarias.com",
+      "sendEmail": "Send me an email",
+      "socialLinks": {
+        "linkedin": {
+          "title": "LinkedIn",
+          "href": "https://www.linkedin.com/in/marcoantonioam/"
+        },
+        "github": {
+          "title": "GitHub",
+          "href": "https://www.github.com/marcoariasm"
+        },
+        "youtube": {
+          "title": "YouTube",
+          "href": "https://www.youtube.com/@marcoarias"
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "href": "https://wa.me/51975993773?text=Hi%20Marco,%20I%20would%20like%20to%20contact%20you%20about%20an%20opportunity."
+        }
+      }
+    }
+  }
+}

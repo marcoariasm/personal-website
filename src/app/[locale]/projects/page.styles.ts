@@ -1,7 +1,8 @@
 "use client";
 
-import Link from 'next/link';
 import styled from 'styled-components';
+
+import { Link } from '@/i18n/navigation';
 
 export const Page = styled.div`
   min-height: 100vh;

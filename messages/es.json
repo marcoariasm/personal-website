@@ -1,0 +1,113 @@
+{
+  "Metadata": {
+    "title": "Marco Arias | Senior Software Engineer",
+    "description": "Ingeniería de software, estrategia tecnológica y desarrollo de productos digitales."
+  },
+
+  "Menu": {
+    "altLogo": "Logo de Marco Arias",
+    "navAriaLabel": "Navigation principal",
+    "menuItems": {
+      "home": { "title": "Inicio", "href": "/" },
+      "about": { "title": "Sobre mí", "href": "#about" },
+      "experience": { "title": "Experiencia", "href": "#experience" },
+      "contact": { "title": "Contacto", "href": "#contact" }
+    },
+    "downloadCV": "Descargar CV",
+    "downloadCVLink": "/doc/MarcoArias-CV-en.pdf"
+  },
+
+  "HomePage": {
+    "hello": "Hola, soy",
+    "name": "Marco",
+    "lastName": " Arias",
+    "subtitle": "Ingeniero de Software Senior",
+    "paragraph": "Construyo aplicaciones web modernas, escalables y orientadas a generar resultados reales para el negocio.",
+
+    "contact": "Envíame un mensaje",
+    "hrefContact": "https://wa.me/51975993773?text=Hola%20Marco,%20me%20gustaría%20contactarte%20para%20hablar%20sobre%20una%20oportunidad.",
+
+    "coreCapabilities": "Competencias principales:",
+    "capabilities": {
+      "capability1": "Pensamiento Sistémico",
+      "capability2": "Arquitectura de Software",
+      "capability3": "Pensamiento de Producto",
+      "capability4": "Liderazgo Técnico",
+      "capability5": "Comprensión del Negocio",
+      "capability6": "Excelencia en Ingeniería"
+    },
+
+    "technologies": "Stack Tecnológico:",
+
+    "availability": "🟢 Disponible a tiempo completo",
+
+    "imageAlt": "Marco Arias, Ingeniero de Software Senior",
+
+    "about": "Sobre mí",
+    "aboutTitle": "Creo soluciones digitales que generan ",
+    "aboutTitleBold": "impacto.",
+    "aboutParagraph": "Desarrollo productos robustos y mantenibles enfocados en la experiencia de usuario.",
+    "aboutItems": {
+      "item1": {
+        "title": "Código limpio",
+        "description": "Componentes mantenibles y arquitectura escalable.",
+        "imageSrc": "/images/clean-code.jpg",
+        "imageAlt": "código limpio"
+      },
+      "item2": {
+        "title": "Centrado en el usuario",
+        "description": "Interfaces claras que resuelven problemas reales.",
+        "imageSrc": "/images/user-centered.jpg",
+        "imageAlt": "centrado en el usuario"
+      },
+      "item3": {
+        "title": "Orientado a resultados",
+        "description": "Entrega de valor medible para el producto y el negocio.",
+        "imageSrc": "/images/results-oriented.webp",
+        "imageAlt": "orientado a resultados"
+      }
+    },
+
+    "experienceEyebrow": "Proyectos destacados",
+    "experienceTitle": "Algunas experiencias recientes",
+    "seeMoreExperience": "Ver más experiencia",
+    "experienceItems": {
+      "santander": {
+        "title": "Santander Consumer Peru",
+        "description": "Desarrollo de Mesa de Concesiones en el building block de Canales Asistidos",
+        "imageAlt": "mesa de concesiones"
+      },
+      "libertas": {
+        "title": "Libertas Funding LLC",
+        "description": "Solución financiera para evaluación, aprobación y gestión de créditos de préstamo crowd-funding.",
+        "imageAlt": "funding management system"
+      }
+    },
+
+    "footer": {
+      "altLogo": "logo de Marco Arias",
+      "description": "Software, estrategia y entrega de resultados.",
+      "contact": "Contacto",
+      "email": "hola@marcoarias.com",
+      "sendEmail": "Envíame un correo",
+      "socialLinks": {
+        "linkedin": {
+          "title": "LinkedIn",
+          "href": "https://www.linkedin.com/in/marcoarias/"
+        },
+        "github": {
+          "title": "GitHub",
+          "href": "https://www.github.com/marcoariasm"
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "href": "https://wa.me/51975993773?text=Hola%20Marco,%20me%20gustaría%20contactarte%20para%20hablar%20sobre%20una%20oportunidad"
+        },
+        "youtube": {
+          "title": "YouTube",
+          "href": "https://www.youtube.com/@marcoarias"
+        }
+      }
+    }
+  }
+}

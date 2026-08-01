@@ -1,7 +1,8 @@
 "use client";
 
-import Link from 'next/link';
 import styled, { css } from 'styled-components';
+
+import { Link } from '@/i18n/navigation';
 
 type CollagePosition = "portrait" | "workspace" | "travel" | "luna";
 
