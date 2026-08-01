@@ -5,7 +5,7 @@ import { Container, Footer as FooterComponent, PrimaryButton } from '@/app/[loca
 import { Link } from '@/i18n/navigation';
 
 import { FOOTER_CONFIG } from './Footer.config';
-import { SocialWrapper } from './Footer.styled';
+import { Name, SocialWrapper } from './Footer.styled';
 
 export async function Footer() {
   const t = await getTranslations("HomePage.footer");
@@ -28,7 +28,7 @@ export async function Footer() {
             width={105}
             height={23}
           />
-          <p>Marco Arias</p>
+          <Name>Marco Arias</Name>
           <p>{t("description")}</p>
         </div>
 

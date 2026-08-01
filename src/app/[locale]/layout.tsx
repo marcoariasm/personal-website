@@ -4,6 +4,7 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 
+import { GTM } from '@/components/analytics/GTM';
 import { ThemeRegistry } from '@/design-system/ThemeRegistry';
 import { routing } from '@/i18n/routing';
 
@@ -70,6 +71,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <ThemeRegistry>{children}</ThemeRegistry>
         </NextIntlClientProvider>
+        <GTM />
       </body>
     </html>
   );
