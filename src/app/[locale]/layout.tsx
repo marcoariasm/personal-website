@@ -4,7 +4,7 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 
-import { GTM } from '@/components/analytics/GTM';
+import { GTM } from '@/components/analytics/GoogleTagManager';
 import { ThemeRegistry } from '@/design-system/ThemeRegistry';
 import { routing } from '@/i18n/routing';
 
