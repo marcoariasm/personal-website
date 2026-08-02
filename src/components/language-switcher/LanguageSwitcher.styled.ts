@@ -8,9 +8,9 @@ export const LanguageSwitcherRoot = styled.nav`
 export const LanguageOptions = styled.ul`
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.125rem;
   margin: 0;
-  padding: 0.25rem;
+  padding: 0.125rem;
   list-style: none;
   border: 1px solid ${({ theme }) => theme.colors.border};
   border-radius: 999px;
@@ -22,9 +22,9 @@ export const LanguageOption = styled.li`
 `;
 
 export const LanguageButton = styled.button<{ $active: boolean }>`
-  min-width: 2.5rem;
+  min-width: 2rem;
   min-height: 2rem;
-  padding: 0.375rem 0.625rem;
+  padding: 0.25rem 0.5rem;
   border: 0;
   border-radius: 999px;
   background: ${({ $active, theme }) =>
