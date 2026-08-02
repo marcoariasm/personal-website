@@ -181,6 +181,7 @@ export const OutlineButton = styled.a`
   border-radius: ${({ theme }) => theme.radius.sm};
 
   color: ${({ theme }) => theme.colors.text};
+  font-size: 0.8rem;
   font-weight: 700;
 
   &:hover {
