@@ -27,11 +27,6 @@ export async function Header() {
           width={105}
           height={23}
         />
-        {/* <Logo href="/">
-          <div>&lt;</div>
-          ma
-          <div>/&gt;</div>
-        </Logo> */}
 
         <Nav aria-label={t("navAriaLabel")}>
           {menuItems.map((item) => (
