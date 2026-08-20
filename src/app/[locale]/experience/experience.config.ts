@@ -4,9 +4,11 @@ import {
   OpenAiIcon,
   PostgreIcon,
   ReactIcon,
+  SonarQubeIcon,
   StyledComponentsIcon,
   TanstackIcon,
-  TypescriptIcon
+  TypescriptIcon,
+  VitestIcon
 } from '../../../../public/icons';
 
 export const EXPERIENCE_CONFIG = [
@@ -15,6 +17,8 @@ export const EXPERIENCE_CONFIG = [
     image: "/images/credit-assessment.png",
     techStack: [
       OpenAiIcon,
+      SonarQubeIcon,
+      VitestIcon,
       ReactIcon,
       TypescriptIcon,
       TanstackIcon,
